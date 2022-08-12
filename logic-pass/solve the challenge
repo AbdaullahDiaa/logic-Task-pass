@@ -1,0 +1,12 @@
+# code pytone 
+x="abdullah diaa";
+print(x.removeprefix("u"))  # q1
+print(x[0:8])   #q2
+print(x.count("a")) #q3
+
+//  js ...............
+let x = "abdullah diaa";
+console.log(x.substring(1, 14));// q1 remove a
+console.log(x.slice(0, 8)); //q2  
+let regex = /a/ig; // q3
+console.log(x.match(regex).length) 
